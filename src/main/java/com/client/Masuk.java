@@ -68,7 +68,6 @@ public class Masuk extends javax.swing.JDialog {
         jLabel3.setText("Username");
 
         username.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        username.setText("admin");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel4.setText("Password");
@@ -88,7 +87,6 @@ public class Masuk extends javax.swing.JDialog {
         port.setText("2024");
 
         password.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        password.setText("admin");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
