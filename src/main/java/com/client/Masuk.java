@@ -62,7 +62,6 @@ public class Masuk extends javax.swing.JDialog {
         jLabel2.setText("Server");
 
         server.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        server.setText("127.0.0.1");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel3.setText("Username");
@@ -84,7 +83,6 @@ public class Masuk extends javax.swing.JDialog {
         jLabel5.setText("Port");
 
         port.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        port.setText("2024");
 
         password.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
 

@@ -425,6 +425,8 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         tabel_pesan_menu.setRowHeight(25);
+        tabel_pesan_menu.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        tabel_pesan_menu.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(tabel_pesan_menu);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -545,6 +547,8 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         tabel_riwayat_pesanan.setRowHeight(25);
+        tabel_riwayat_pesanan.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        tabel_riwayat_pesanan.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane4.setViewportView(tabel_riwayat_pesanan);
 
         next_update_pesanan_saya.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -608,6 +612,8 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         tabel_kelola_pesanan.setRowHeight(25);
+        tabel_kelola_pesanan.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        tabel_kelola_pesanan.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane5.setViewportView(tabel_kelola_pesanan);
 
         habis.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -801,6 +807,8 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         tabel_kelola_pengguna.setRowHeight(25);
+        tabel_kelola_pengguna.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        tabel_kelola_pengguna.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane6.setViewportView(tabel_kelola_pengguna);
 
         tambah_pengguna.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
