@@ -4,6 +4,8 @@
 
 package com.client;
 
+import com.formdev.flatlaf.FlatIntelliJLaf;
+
 /**
  *
  * @author Hanif
@@ -11,6 +13,7 @@ package com.client;
 public class Client {
 
     public static void main(String[] args) {
+        FlatIntelliJLaf.setup();
         Dashboard dashboard = new Dashboard();
         dashboard.setVisible(true);
     }
